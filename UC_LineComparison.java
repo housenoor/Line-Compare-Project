@@ -35,6 +35,13 @@ public class UC_LineComparison {
         double lineLength2 = Math.sqrt((x4 - x3) * (x4 - x3) + (y4 - y3) * (y4 - y3)); 
 	System.out.println("The length of Line1 is" + lineLength1);
  	System.out.println("The length of Line2 is" + lineLength2);
+		if(lineLength1==lineLength2) {
+            System.out.println("Two Lines are Equal");
+        }
+        else
+         {
+            System.out.println("Two Lines are Not Equal");
+        }
 		
 	}
 		
